@@ -1,0 +1,7 @@
+// Transformed Arithmetic Grammar in Canonical LL(1) Form
+// '#' denotes epsilon (empty string)
+E -> T E'
+E' -> + T E' | #
+T -> F T'
+T' -> * F T' | #
+F -> ( E ) | id

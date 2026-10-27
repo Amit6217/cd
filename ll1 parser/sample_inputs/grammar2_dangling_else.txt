@@ -1,0 +1,5 @@
+// Conditional Grammar with Common Prefix (Requires Left Factoring)
+// Terminals: i (if), t (then), e (else), a, b
+// Non-Terminals: S, E
+S -> i E t S | i E t S e S | a
+E -> b

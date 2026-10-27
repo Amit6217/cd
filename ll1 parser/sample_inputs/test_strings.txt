@@ -1,0 +1,11 @@
+# Valid test inputs for Arithmetic Grammar
+id + id * id
+( id + id ) * id
+id * ( id + id ) * id
+id
+
+# Invalid test inputs (Syntax Errors)
+id + * id
+( id + id
+id + id +
+* id
